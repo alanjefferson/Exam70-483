@@ -42,12 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter\ManageProgramFlow.cs" />
+    <Compile Include="Chapters\Chapter01\ManageProgramFlow.cs" />
+    <Compile Include="Chapters\Chapter01\Objective1.4\AMulticastDelegate.cs" />
+    <Compile Include="Chapters\Chapter01\Objective1.4\ContravarianceWithDelegates.cs" />
+    <Compile Include="Chapters\Chapter01\Objective1.4\CovarianceWithDelegates.cs" />
+    <Compile Include="Chapters\Chapter01\Objective1.4\UsingADelegate.cs" />
+    <Compile Include="Chapters\Chapter01\Objective1.4\UsingTheActionDelegate.cs" />
+    <Compile Include="Chapters\Chapter02\CreateAndUseTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
